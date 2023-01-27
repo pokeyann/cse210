@@ -21,5 +21,9 @@ class Program
       userNumber = int.Parse(userResponse);
 
     } while (userNumber != 0);
+
+    numbers.Add(userNumber);
+    Console.WriteLine("numbers");
+
   }
 }
