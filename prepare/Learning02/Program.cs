@@ -22,5 +22,12 @@ class Program
     job2.JobInformation();
     Console.WriteLine(job2);
 
+    Resume myresume = new Resume();
+    myresume._name = "Ann Mecham";
+    myresume._jobs.Add(job1);
+    myresume._jobs.Add(job2);
+    myresume.Display();
+    Console.WriteLine(myresume._jobs[0]._jobTitle);
+
   }
 }
