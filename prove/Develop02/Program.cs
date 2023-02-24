@@ -42,3 +42,33 @@ class Program
     // Date
   }
 }
+
+/* 
+1.	Write
+a.	Random generated prompt
+b.	User input journal entry, answering prompt
+c.	Returns to menu options when hit enter
+
+2.	Display
+a.	Display all journal entries
+i.	Include date and prompt
+
+3.	Load
+a.	Loads saved file
+b.	Displays saved file
+
+4.	Save
+a.	Save journal entries to file
+i.	Add date
+ii.	include prompt
+iii.	Include journal entry
+iv.	Overwrites file each time saved with new journal entries
+
+5.	Quit
+a.	Ends program
+
+6.	Create list of prompt questions
+
+7.	Need to randomly generate prompt questions
+*/
+
